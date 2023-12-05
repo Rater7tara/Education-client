@@ -1,0 +1,80 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+.nav-bar a {
+    color: #333; /* Dark text color */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-bar a:hover {
+    background-color: #F27A44;
+    border-radius: 20px;
+}
+
+.nav-bar.right {
+    display: flex;
+    text-align: center;
+}
+
+/* Collapse button */
+.nav-toggle {
+    display: none; /* Hide by default for larger screens */
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #333; /* Dark text color */
+    cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nav-bar.collapsed {
+        display: none;
+    }
+
+    .nav-bar.right {
+        margin-top: 10px; /* Adjust spacing for mobile */
+    }
+
+    .nav-bar a {
+        margin-right: 0;
+    }
+
+    .nav-toggle {
+        display: block; /* Show the collapse button for smaller screens */
+        margin: 10px auto; /* Center the collapse button */
+    }
+}
