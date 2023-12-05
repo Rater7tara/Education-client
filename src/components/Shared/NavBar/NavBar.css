@@ -16,16 +16,15 @@ body, h1, h2, h3, p, ul, li {
     display: flex;
     text-align: center;
     margin: auto;
+    gap: 1rem;
 }
 
 .nav-bar a {
-    color: #333; /* Dark text color */
     text-decoration: none;
     font-size: 16px;
     padding: 12px;
     font-weight: 600;
     margin-bottom: 5px;
-    transition: background-color 0.3s;
 }
 
 .nav-bar a:hover {
@@ -38,13 +37,23 @@ body, h1, h2, h3, p, ul, li {
     text-align: center;
 }
 
+.button{
+    background-color: #F27A44;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: rgb(253, 180, 44);
+    color: white;
+}
+
 /* Collapse button */
 .nav-toggle {
-    display: none; /* Hide by default for larger screens */
+    display: none;
     font-size: 20px;
     background: none;
     border: none;
-    color: #333; /* Dark text color */
     cursor: pointer;
 }
 
@@ -66,7 +75,7 @@ body, h1, h2, h3, p, ul, li {
     }
 
     .nav-bar.right {
-        margin-top: 10px; /* Adjust spacing for mobile */
+        margin-top: 10px;
     }
 
     .nav-bar a {
@@ -74,7 +83,7 @@ body, h1, h2, h3, p, ul, li {
     }
 
     .nav-toggle {
-        display: block; /* Show the collapse button for smaller screens */
-        margin: 10px auto; /* Center the collapse button */
+        display: block;
+        margin: 10px auto;
     }
 }

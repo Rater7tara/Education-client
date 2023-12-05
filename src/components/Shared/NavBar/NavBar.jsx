@@ -23,7 +23,7 @@ const NavBar = () => {
 
             <div className="nav-bar right">
                 <a href="#">Offers</a>
-                <a href="#">Courses</a>
+                <a className='button' href="#">Courses</a>
             </div>
         </nav>
     );
