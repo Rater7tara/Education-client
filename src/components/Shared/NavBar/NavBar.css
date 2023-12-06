@@ -44,7 +44,7 @@ body, h1, h2, h3, p, ul, li {
 }
 
 .button:hover {
-    background-color: rgb(253, 180, 44);
+    background-color: orange;
     color: white;
 }
 
