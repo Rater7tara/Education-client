@@ -1,0 +1,86 @@
+.tropical-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding: 2rem;
+    border: 1px solid green;
+}
+.tropical-content{
+    text-align: left;
+    width: 40%;
+    padding-left:1em ;
+}
+.tropical-content h1{
+    font-size: 2.8em;
+    border-left: 5px solid rgb(255, 41, 4);
+    padding-left: 10px;
+}
+.tropical-content p{
+    margin-bottom: 2em;
+    color: rgb(89, 96, 102);
+}
+
+.item{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.2), 0 5px 20px 0 rgba(129, 129, 129, 0.19);
+    padding: 10px;
+    margin-top: 2rem;
+}
+.item img{
+    margin-right: 2rem;
+}
+
+.Trop-img-text{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.second-text{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    width: 34vw;
+    border: 1px solid red;
+}
+
+.second-text h1{
+    font-size: 40px;
+}
+
+.second-text h2{
+    font-size: 30px;
+    margin-left: 8px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.second-text h3{
+    font-size: 18px;
+
+    margin-left: 8px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.second-text ul{
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+
+.trop-li{
+    margin-top: 10px;
+}
+
+.second-text button{
+    margin-left: 2rem;
+    width: 10rem;
+}
+
